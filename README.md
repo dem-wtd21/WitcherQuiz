@@ -21,3 +21,33 @@
 - `Question.kt` — модель данных вопроса.
 - `QuizController.kt` — логика загрузки JSON, управления состоянием экранов, таймером и подсчётом очков.
 - `MainActivity.kt` — интерфейс экранов на Jetpack Compose.
+
+## Установка и запуск
+1. Склонировать репозиторий или скачать архив с исходным кодом:
+   ```bash
+   git clone https://github.com
+   ```
+   *(Либо нажать на странице репозитория кнопку **Code -> Download ZIP** и распаковать архив в папку без кириллицы в пути).*
+2. Открыть **Android Studio**, выбрать **File -> Open** и указать папку с проектом `WitcherQuiz`.
+3. Дождаться завершения синхронизации **Gradle** (зависимости подтянутся автоматически).
+4. Запустить приложение нажатием **Run 'app'** (`Shift + F10`) на Android-эмуляторе или физическом устройстве (минимальная версия ОС — Android 7.0 / API 24).
+
+## Макеты интерфейса (Pixso)
+
+### 1. Стартовый экран и выбор сложности
+<img width="178" height="362" alt="image" src="https://github.com/user-attachments/assets/44021a8b-15f1-491e-82b1-71ee7a3e3c6b" />
+
+
+### 2. Экран вопроса — режим «Только сюжет» (верный ответ)
+<img width="178" height="362" alt="image" src="https://github.com/user-attachments/assets/a4e742c3-1594-4b3d-b018-f6b63ac35ab3" />
+
+
+### 3. Экран вопроса — режим «На смерть!» (ошибочный ответ и таймер)
+<img width="178" height="362" alt="image" src="https://github.com/user-attachments/assets/648bfc6e-bb46-493f-817b-bdeb82a460a9" />
+
+
+### 4. Экран результатов и присвоение ранга
+<img width="178" height="362" alt="image" src="https://github.com/user-attachments/assets/4142fb07-3be9-433e-b50f-8c7119ea5589" />
+
+
+
